@@ -6,29 +6,90 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		175E541D1CE1B5AA00096D39 /* iOSSDk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSSDk.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
-		175E54041CE1AFDB00096D39 = {
+		175E540F1CE1B54300096D39 = {
+			isa = PBXGroup;
+			children = (
+				175E541C1CE1B58700096D39 /* IOSSDK */,
+				175E54161CE1B58700096D39 /* 产品熟悉度 */,
+				175E54171CE1B58700096D39 /* 开发支持 */,
+				175E54181CE1B58700096D39 /* 设计与质量 */,
+				175E54191CE1B58700096D39 /* 市场竞争意识 */,
+				175E541A1CE1B58700096D39 /* 项目处理能力 */,
+				175E541B1CE1B58700096D39 /* 学习与培训能力 */,
+			);
+			sourceTree = "<group>";
+		};
+		175E54161CE1B58700096D39 /* 产品熟悉度 */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			path = "产品熟悉度";
+			sourceTree = "<group>";
+		};
+		175E54171CE1B58700096D39 /* 开发支持 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "开发支持";
+			sourceTree = "<group>";
+		};
+		175E54181CE1B58700096D39 /* 设计与质量 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "设计与质量";
+			sourceTree = "<group>";
+		};
+		175E54191CE1B58700096D39 /* 市场竞争意识 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "市场竞争意识";
+			sourceTree = "<group>";
+		};
+		175E541A1CE1B58700096D39 /* 项目处理能力 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "项目处理能力";
+			sourceTree = "<group>";
+		};
+		175E541B1CE1B58700096D39 /* 学习与培训能力 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "学习与培训能力";
+			sourceTree = "<group>";
+		};
+		175E541C1CE1B58700096D39 /* IOSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				175E541D1CE1B5AA00096D39 /* iOSSDk.m */,
+			);
+			path = IOSSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		175E54051CE1AFDB00096D39 /* Project object */ = {
+		175E54101CE1B54300096D39 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 			};
-			buildConfigurationList = 175E54081CE1AFDB00096D39 /* Build configuration list for PBXProject "iOS知识与技能体系" */;
+			buildConfigurationList = 175E54131CE1B54300096D39 /* Build configuration list for PBXProject "iOS知识与技能体系" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 175E54041CE1AFDB00096D39;
+			mainGroup = 175E540F1CE1B54300096D39;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -37,13 +98,13 @@
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		175E54091CE1AFDB00096D39 /* Debug */ = {
+		175E54141CE1B54300096D39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		175E540A1CE1AFDB00096D39 /* Release */ = {
+		175E54151CE1B54300096D39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
@@ -52,16 +113,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		175E54081CE1AFDB00096D39 /* Build configuration list for PBXProject "iOS知识与技能体系" */ = {
+		175E54131CE1B54300096D39 /* Build configuration list for PBXProject "iOS知识与技能体系" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				175E54091CE1AFDB00096D39 /* Debug */,
-				175E540A1CE1AFDB00096D39 /* Release */,
+				175E54141CE1B54300096D39 /* Debug */,
+				175E54151CE1B54300096D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 175E54051CE1AFDB00096D39 /* Project object */;
+	rootObject = 175E54101CE1B54300096D39 /* Project object */;
 }
